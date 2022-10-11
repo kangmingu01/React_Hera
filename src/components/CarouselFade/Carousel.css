@@ -1,0 +1,20 @@
+.carousel-control-prev-icon {
+  background-image: url(../../../public/assets/icons/prev-icon.svg);
+  width: 50px;
+  height: 200px;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../../../public/assets/icons/next-icon.svg);
+  width: 50px;
+  height: 200px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-caption {
+  top: 35%;
+  height: 130px;
+}
