@@ -10,7 +10,7 @@ const NavbarCom = () => {
     <>
       <Navbar
         className="fixed-top"
-        expand="sm"
+        expand="lg"
         style={{
           height: "65px",
           background: "linear-gradient(to bottom, rgb(56 56 56), transparent)",
@@ -26,7 +26,13 @@ const NavbarCom = () => {
               alt="HERA logo"
             />
           </Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+
+          {/* 햄버거 */}
+          <Navbar.Toggle
+            className="text-white text-bg-dark"
+            aria-controls="basic-navbar-nav"
+          />
+
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto ms-4 pt-2 ">
               <Nav.Link href="#home" className="text-white">

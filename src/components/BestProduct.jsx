@@ -29,7 +29,7 @@ const newP = [
 const BestProduct = () => {
   return (
     <section
-      className="d-flex text-start mx-auto mt-5 mb-5"
+      className="d-flex text-start mx-auto mt-5 mb-5 just flex-lg-row flex-sm-column"
       style={{ maxWidth: 1044 }}
     >
       {/* Best */}
