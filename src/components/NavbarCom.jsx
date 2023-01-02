@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Icon from "../imgs/HERA.svg";
-import { GrLocation } from "react-icons/gr";
+import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 
@@ -53,22 +53,13 @@ const NavbarCom = () => {
             </Nav>
             <Nav style={{ width: 80 }}>
               <Nav.Link>
-                <GrLocation
-                  style={{ width: 18, height: 18 }}
-                  className="text-white"
-                />
+                <IoLocationOutline size={25} className="text-white" />
               </Nav.Link>
               <Nav.Link>
-                <AiOutlineSearch
-                  style={{ width: 20, height: 20 }}
-                  className="text-white"
-                />
+                <AiOutlineSearch size={25} className="text-white" />
               </Nav.Link>
               <Nav.Link>
-                <AiOutlineUser
-                  style={{ width: 18, height: 18 }}
-                  className="text-white"
-                />
+                <AiOutlineUser size={25} className="text-white" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
